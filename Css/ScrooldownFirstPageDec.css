@@ -1,0 +1,26 @@
+.Scrooldownrow{
+
+	position: absolute;
+}
+
+.Scrooldowncol1{
+
+transform: rotateZ(270deg);
+
+}
+
+
+.Scrooldowndecoration{
+
+	position: absolute;
+	background-color: red;
+}
+
+
+.scroolcrtica{
+	position: absolute;
+	transform: rotateZ(270deg);
+	width: 10px;
+	height: 10px;
+	background-color: ghostwhite;
+}

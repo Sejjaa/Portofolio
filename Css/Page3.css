@@ -1,0 +1,40 @@
+
+
+
+#imgPage{
+
+    background-image: url('../Img/background/dec2.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+}
+
+
+.ShowMeMore{
+
+	width: 50px;
+	height: 40px;
+	border-radius: 35%;
+
+}
+
+.TextDeco10{
+
+	font-family: cursive;
+	font-weight: bold;
+}
+
+
+.btnChangePage{
+
+	background-color: floralwhite;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 6px dashed black;
+
+}
+
+
+
+

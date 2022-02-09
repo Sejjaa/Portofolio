@@ -1,0 +1,25 @@
+.Shorcut{
+
+	position: absolute;
+	left: 0px;
+	top: 40%;
+}
+
+.nodecoration{
+	  list-style-type: none;
+}
+
+
+.Page{
+	border-radius: 10px;
+	width: 20px;
+	height: 7px;
+	background-color: lightblue;
+	margin-top: 20px;
+}
+
+.Page-1{
+
+	width: 50px;
+
+}
