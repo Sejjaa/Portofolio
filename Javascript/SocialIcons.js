@@ -25,7 +25,7 @@ $(SocialIcons[0]).on('click',()=>{
 	if(TrackingSoicalSound==0){
 		MusicHolder.css({display:'block'})
 		setTimeout(RunMusic,500)
-		$(SocialIcons[0]).css({backgroundImage:"url(../Img/socialicons/onsound.png)"})
+		$(SocialIcons[0]).css({backgroundImage:"url(./Img/socialicons/onsound.png)"})
 
 		TrackingSoicalSound=4;
 		setTimeout( ()=>{
@@ -49,7 +49,7 @@ $(SocialIcons[0]).on('click',()=>{
 		MusicHolder.css({display:'none'})
 		CircleAnimation.css({display:'none'})
 		MusicNameHolder.css({display:'none'})
-		$(SocialIcons[0]).css({backgroundImage:"url(../Img/socialicons/mutesound.png)"})
+		$(SocialIcons[0]).css({backgroundImage:"url(./Img/socialicons/mutesound.png)"})
 		TrackingSoicalSound=4;
 		setTimeout( ()=>{
 

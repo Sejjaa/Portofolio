@@ -90,7 +90,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/BeyBlade.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/BeyBlade.mp4");
 
     			},2000 );
 		
@@ -122,7 +122,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/MemoryGame.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/MemoryGame.mp4");
 
     			},2000 );
 		
@@ -155,7 +155,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/SuperMario.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/SuperMario.mp4");
 
     			},2000 );
 		
@@ -188,7 +188,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/TypeOsu.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/TypeOsu.mp4");
 
     			},2000 );
 		
@@ -221,7 +221,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/TypeWords.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/TypeWords.mp4");
 
     			},2000 );
 		
@@ -255,7 +255,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "../Videos/Word.mp4");
+    				$(VideoPlaying).attr("src", "./Videos/Word.mp4");
 
     			},2000 );
 		

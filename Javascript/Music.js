@@ -16,15 +16,15 @@ var MusicNameHolder;
 
 function CreateSongs(){
 
-var Song1=new Audio('../Song/forever_after_all.mp3');
-var Song2=new Audio('../Song/god_we_need_you_now.mp3');
-var Song3=new Audio('../Song/kevin_gates_dear_god.mp3');
-var Song4=new Audio('../Song/nobody_but_you.mp3');
-var Song5=new Audio('../Song/one_call_away.mp3');
-var Song6=new Audio('../Song/suga_boom_boom.mp3');
-var Song7=new Audio('../Song/mom.mp3');
-var Song8=new Audio('../Song/welcome_to_my_house.mp3');
-var Song9=new Audio('../Song/gods_country.mp3');
+var Song1=new Audio('./Song/forever_after_all.mp3');
+var Song2=new Audio('./Song/god_we_need_you_now.mp3');
+var Song3=new Audio('./Song/kevin_gates_dear_god.mp3');
+var Song4=new Audio('./Song/nobody_but_you.mp3');
+var Song5=new Audio('./Song/one_call_away.mp3');
+var Song6=new Audio('./Song/suga_boom_boom.mp3');
+var Song7=new Audio('./Song/mom.mp3');
+var Song8=new Audio('./Song/welcome_to_my_house.mp3');
+var Song9=new Audio('./Song/gods_country.mp3');
 
 SongsPlayList.push(Song1,Song2,Song3,Song4,Song5,Song6,Song7,Song8,Song9);
 
@@ -88,7 +88,7 @@ var CreateCircle="<div id='circle'></div>";
 MainPage.append(CreateCircle)
 CircleAnimation=$('#circle');
 let pos=MusicHolder.position();
-CircleAnimation.css({position:'absolute',borderRadius:'50%',width:300,height:300,backgroundRepeat: "no-repeat",backgroundSize: "contain",backgroundImage:"url('../Img/background/fire2.png')",left:pos.left-65,top:pos.top-160})
+CircleAnimation.css({position:'absolute',borderRadius:'50%',width:300,height:300,backgroundRepeat: "no-repeat",backgroundSize: "contain",backgroundImage:"url('./Img/background/fire2.png')",left:pos.left-65,top:pos.top-160})
 
 var SongNameDisplay="<div id='MusicNameHolder'></div>";
 MainPage.append(SongNameDisplay)
@@ -155,7 +155,7 @@ PlayAudio();
 }
 
 
-var ClickSound=new Audio('../Song/click3.wav');
+var ClickSound=new Audio('./Song/click3.wav');
 
 function AddClickSound(){
 

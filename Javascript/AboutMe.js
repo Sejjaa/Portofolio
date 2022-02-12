@@ -111,7 +111,7 @@ TextHolder10.css({width:400,position:'absolute',left:'50%',fontWeight:"bold",col
 
 var animationFire=$('#animationFire');
 
-var ArreyAnimation=["url(../ImgAnimation/fire0.png)","url(../ImgAnimation/fire1.png)","url(../ImgAnimation/fire2.png)","url(../ImgAnimation/fire3.png)","url(../ImgAnimation/fire4.png)","url(../ImgAnimation/fire5.png)","url(../ImgAnimation/fire6.png)","url(../ImgAnimation/fire7.png)","url(../ImgAnimation/fire8.png)"]
+var ArreyAnimation=["url(./ImgAnimation/fire0.png)","url(./ImgAnimation/fire1.png)","url(./ImgAnimation/fire2.png)","url(./ImgAnimation/fire3.png)","url(./ImgAnimation/fire4.png)","url(./ImgAnimation/fire5.png)","url(./ImgAnimation/fire6.png)","url(./ImgAnimation/fire7.png)","url(./ImgAnimation/fire8.png)"]
 
 
 animationFire.css({ top:'37%',backgroundImage:ArreyAnimation[0],backgroundRepeat: 'no-repeat',backgroundSize:'contain',width:'150px',height:'150px',position:'absolute',left:'100px' })

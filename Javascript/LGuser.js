@@ -17,7 +17,7 @@ DisplayAllContent=`
 
 
 
-<div class="container-fluid MainPage" style="position:absolute;color:blue;background-image:url(../Img/background/img2.jpg);width:${x}px;height:${y}px;background-size: ${x}px ${y}px;background-repeat: no-repeat;"  >
+<div class="container-fluid MainPage" style="position:absolute;color:blue;background-image:url(./Img/background/img2.jpg);width:${x}px;height:${y}px;background-size: ${x}px ${y}px;background-repeat: no-repeat;"  >
 
 
   <div class="row">
@@ -267,7 +267,7 @@ var ExtendVideos=`
 
 
 <div class="embed-responsive embed-responsive-1by1">
-  <iframe class="embed-responsive-item VideoHolder"  src="../Videos/BeyBlade.mp4"  frameborder="0" style="width:${x/2+100}px;height: ${y/2+100}px;"></iframe>
+  <iframe class="embed-responsive-item VideoHolder"  src="./Videos/BeyBlade.mp4"  frameborder="0" style="width:${x/2+100}px;height: ${y/2+100}px;"></iframe>
 </div>
 
 
@@ -326,7 +326,7 @@ var ExtendUpdate2=`
 
      <div class="SkillImg SkillImg-0">
 
-          <img class="proimg proimg-0" src="../SkillImg/html5.png">
+          <img class="proimg proimg-0" src="./SkillImg/html5.png">
 
           <div class="progress progress-0">
             <div class="progress-bar" style="width:90%;background:red;"></div>
@@ -340,7 +340,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-1">
 
-          <img class="proimg proimg-1" src="../SkillImg/boot.png">
+          <img class="proimg proimg-1" src="./SkillImg/boot.png">
 
           <div class="progress progress-1">
             <div class="progress-bar" style="width:80%;background:red;"></div>
@@ -355,7 +355,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-2">
 
-          <img class="proimg proimg-2" src="../SkillImg/js.png">
+          <img class="proimg proimg-2" src="./SkillImg/js.png">
 
           <div class="progress progress-2">
             <div class="progress-bar" style="width:90%;background:red;"></div>
@@ -370,7 +370,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-3">
 
-          <img class="proimg proimg-3" src="../SkillImg/jquery.png">
+          <img class="proimg proimg-3" src="./SkillImg/jquery.png">
 
           <div class="progress progress-3">
             <div class="progress-bar" style="width:100%;background:red;"></div>
@@ -385,7 +385,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-4">
 
-          <img class="proimg proimg-4" src="../SkillImg/php.png">
+          <img class="proimg proimg-4" src="./SkillImg/php.png">
 
           <div class="progress progress-4">
             <div class="progress-bar" style="width:60%;background:red;"></div>
@@ -400,7 +400,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-5">
 
-          <img class="proimg proimg-5" src="../SkillImg/node.png">
+          <img class="proimg proimg-5" src="./SkillImg/node.png">
 
           <div class="progress progress-5">
             <div class="progress-bar" style="width:50%;background:red;"></div>
@@ -414,7 +414,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-6">
 
-          <img class="proimg proimg-6" src="../SkillImg/vue.png">
+          <img class="proimg proimg-6" src="./SkillImg/vue.png">
 
           <div class="progress progress-6">
             <div class="progress-bar" style="width:40%;background:red;"></div>
@@ -428,7 +428,7 @@ var ExtendUpdate2=`
 
        <div class="SkillImg SkillImg-7">
 
-          <img class="proimg proimg-7" src="../SkillImg/three.png">
+          <img class="proimg proimg-7" src="./SkillImg/three.png">
 
           <div class="progress progress-7">
             <div class="progress-bar" style="width:50%;background:red;"></div>
