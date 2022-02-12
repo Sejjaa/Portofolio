@@ -42,7 +42,7 @@ DisplayAllContent=`
 
 
    <div class="row">
-      <div class="col-3 offset-7 Portofolio"  style="margin-top:-11%"><h1>Portofolio</h1></div>
+      <div class="col-3 offset-7 Portofolio"  style="margin-top:-11%;color:white;"><h1>Portofolio</h1></div>
    </div>
 
   <div class="row Shorcut">
@@ -74,7 +74,7 @@ DisplayAllContent=`
   </div>
 
   <div class="row Scrooldownrow">
-    <div class="col-2 Scrooldowncol1">Scrool down</div>
+    <div class="col-3 Scrooldowncol1"><h5>Scrool down</h5></div>
   </div>
 
    <div class="row Scrooldowndecoration">
@@ -98,7 +98,7 @@ var NewPageVideosAdd=`
   <div class="row NewPageVideos">
 
     <div class="col-4 offset-4" style="margin-top:20px;"><h2>All my Projects</h2></div>  
-    <div class="col-2 offset-1" style="margin-top:20px;">GitHub</div>
+    <a class="col-2 offset-2" href="https://github.com/Sejjaa?tab=repositories"><div class="git" style="margin-top:20px;"></div> </a> 
 
 
 <!-- First 3 projects -->
@@ -215,29 +215,22 @@ var UpdateDisplayAllContent=`
   <div id="imgPage"></div>  
 
   <div class="row">
-    <div class="col-2" style="margin-top:3%;"><h1>Sead Sinanovic</h1></div>
-    <div class="col-3 offset-8" style="margin-top:5%;position: absolute;"><h1>Portofolio</h1></div> 
+    <div class="col-2" style="margin-top:3%;color:white;"><h1>Sead Sinanovic</h1></div>
+    <div class="col-3 offset-9" style="margin-top:4%;position:absolute;color:white;"><h1>Portofolio</h1></div> 
   </div>
 
-     <div class="row" style="margin-top:-2%;">
-     <div class="col-3 offset-2 AboutMeText"><h2>About me</h2></div>
-   </div>
+    
+     <div class="AboutMeText"><h1>About me</h1></div>
 
 
-  <div class="row NewDeco">
-    <div class="col-2 offset-2 NewDeco1"></div>
-    <div class="col-2 NewDeco1"></div>
-  </div>
+    <div class="NewDeco1"></div>
+    <div class="NewDeco1"></div>
 
 
-  <div class="row">
-    <div class="col-3 offset-2 TextDeco10"><h5>I love Programming, Technology,
-and Story.</h5></div>
-  </div>
+    <div class="TextDeco10"><h3>I love Programming, Technology,
+and Story.</h3></div>
 
-   <div class="row">
-    <div class="col-3 offset-2 btn btn-danger ShowMeMore">Show Me More</div>
-  </div>
+    <div class="btn btn-danger ShowMeMore">Show Me More</div>
 
 
 <div class="row Page3Holder">
@@ -305,7 +298,7 @@ var ExtendUpdate1=`
       <div class="TextHolder10">
 
       Rođen u Bosnia i Hercegovini u gradu Tesanj 07.03.1996 godine.Zavrsio sam IT Academy u Sarajevu za Front End Developer
-      01.11.2021 godine.Nemam nikakvog radnog iskustva u WebProgramiranju.Od 2020 godine pocelo me je zanimati programiranje
+      01.11.2021 godine.Od 2020 godine pocelo me je zanimati programiranje
       pa sam odlucio da upisem skolu radi lakseg zapošljavanja.Posebno volim da programiram VideoIgrice jel tu nalazim veci izazov u kodiranju.
 
       </div>
@@ -509,8 +502,15 @@ NewPage1.css({position:'absolute',top:y*2,transition:'1.5s'  })
 MainPage.append(Music);
 MusicHolder=$('#MusicHolder');
 
+//PortoText
 
+var PortofolioTextPage1=$('.Portofolio');
 
+if(x>1500){
+
+PortofolioTextPage1.css({ marginTop:'-7%'  })
+
+}
 
 
 var crtica1=$('.crtica1');

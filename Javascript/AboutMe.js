@@ -16,41 +16,49 @@ var ImageInterval;
 function Page3AboutMe(){
 
 
-let AboutMeText=document.querySelector('.AboutMeText');
-let compStyles = window.getComputedStyle(AboutMeText);
-let left=compStyles.getPropertyValue('margin-left');
-let left1=parseInt(left);
+let widthget10=x/6;
 
 var AboutMeText1=$('.AboutMeText');
-let pos20=AboutMeText1.position();
-let top1=pos20.top;
+AboutMeText1.css({ position:'absolute',left:widthget10,top:'27%',color:'white',width:400,height:50,fontWeight:'bold'  })
 
-let fixtop1=top1-top1;
+let pos20=AboutMeText1.position();
+
 var NewDeco=$('.NewDeco1');
 
+$(NewDeco[0]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',position:'absolute',
+
+	left:pos20.left+95,top:pos20.top+65,
+
+})
 
 
-if(x<1200){
-$(NewDeco[0]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',marginLeft:left1+25,marginTop:fixtop1-85  })
-$(NewDeco[1]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',marginLeft:'10px',marginTop:fixtop1-65  })
+$(NewDeco[1]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',marginLeft:'10px',position:"absolute",left:pos20.left+185,top:pos20.top+85, })
 
 
-}if(x>1200){
-$(NewDeco[0]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',marginLeft:left1+50,marginTop:fixtop1-85  })
-$(NewDeco[1]).css({width:'100px',height:'5px',background:'red',borderRadius:'15%',marginLeft:'30px',marginTop:fixtop1-65  })
 
-}
 
 
 
 
 let textDeco=$('.TextDeco10');
 
-$(textDeco).css({marginLeft:left1+10,marginTop:fixtop1-140  })
+$(textDeco).css({ position:"absolute",left:pos20.left+10,top:pos20.top+110,width:400 })
 
 let ShowMeMore=$('.ShowMeMore');
 
-$(ShowMeMore).css({marginLeft:left1+15,marginTop:fixtop1-130  })
+$(ShowMeMore).css({position:"absolute",left:pos20.left+100,top:pos20.top+200,width:200 })
+
+
+ShowMeMore.on('click',()=>{
+
+
+TrackerShowMeMore=2;
+MoveAboutMePage();
+
+
+})
+
+
 
 Page3Holder=$('.Page3Holder');
 
@@ -93,7 +101,7 @@ broj1.css({ top:pos30.top-18,position:'absolute',width:'50px',height:'50px',marg
 TextIm.css({ top:pos30.top-21,position:'absolute',width:'200px',height:'50px',marginLeft:'160px',fontWeight:"bold",color: 'black',fontSize:'32px',fontFamily: 'fantasy',wordSpacing:'12px'  })
 
 
-
+NewPage1.css({transition:'1.5s',})
 
 let TextHolder10=$('.TextHolder10');
 
@@ -123,7 +131,11 @@ NewPage1.css({transition:'2s'})
 
 var ImgPage=$('#imgPage');
 
-ImgPage.css({width:1500,height:900,top:0,zIndex:-1,position:'absolute'})
+let widthimg=x-190;
+let heightimg=y+310;
+let topimg=y/8;
+
+ImgPage.css({width:widthimg,height:heightimg,top:-topimg,zIndex:-1,position:'absolute',left:x/8.5})
 
 
 NewPage1.on("mouseover",()=>{

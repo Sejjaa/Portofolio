@@ -90,7 +90,7 @@ function ExpandVideosAndAddVideosPage(){
 
     			setTimeout( ()=>{
 
-    				$(VideoPlaying).attr("src", "https://www.youtube.com/watch?v=CSdpk6NzvhY");
+    				$(VideoPlaying).attr("src", "../Videos/BeyBlade.mp4");
 
     			},2000 );
 		

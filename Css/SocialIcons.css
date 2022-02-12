@@ -30,3 +30,13 @@
 	width: 40px;
 	height: 40px;
 }
+
+.git{
+
+	background-image:url(../Img/socialicons/git.png);
+	width: 90px;
+	height: 90px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}

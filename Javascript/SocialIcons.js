@@ -182,7 +182,7 @@ for(var AllPage of AllPages){
 
 var Scrooldownrow=$('.Scrooldownrow');
 
-Scrooldownrow.css({width:750,top:y-130,left:-10})
+Scrooldownrow.css({width:750,top:y-130,left:-40})
 
 var Scrooldowndec=$('.Scrooldowndecoration');
 
